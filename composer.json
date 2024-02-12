@@ -1,0 +1,19 @@
+{
+    "name": "pzn/learn-php-composer-library",
+    "description": "Learn PHP Composer Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pzn\\LearnPhpComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "syauqidamario",
+            "email": "syauqi.djohan@student.umn.ac.id"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
